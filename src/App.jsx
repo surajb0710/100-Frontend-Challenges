@@ -1,4 +1,5 @@
 import style from './App.module.css';
+import ECommerceProductCard from './components/ECommerceProductCard';
 import ProfileCard from './components/ProfileCard';
 
 const App = () => {
@@ -6,7 +7,8 @@ const App = () => {
     <>
       <h1 className={style.repoTitle}>100 FREE Frontend Challenges</h1>
       <div className={style.mainContainer}>
-        <ProfileCard />
+        {/* <ProfileCard /> */}
+        <ECommerceProductCard />
       </div>
     </>
   );

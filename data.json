@@ -1,0 +1,36 @@
+{
+  "ECommerceProductImages": [
+    {
+      "id": 0,
+      "url": "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450"
+    },
+    {
+      "id": 1,
+      "url": "https://img.freepik.com/free-photo/indian-man-simple-white-tee-studio-portrait_53876-102833.jpg"
+    },
+    {
+      "id": 2,
+      "url": "https://img.freepik.com/free-photo/casual-dressed-man-crossing-road-outdoor-photoshoot_53876-105534.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://img.freepik.com/free-photo/indian-man-wearing-white-t-shirt-apparel-close-up_53876-125258.jpg"
+    },
+    {
+      "id": 4,
+      "url": "https://img.freepik.com/free-photo/man-white-t-shirt-headband-activewear-apparel_53876-125240.jpg"
+    },
+    {
+      "id": 5,
+      "url": "https://img.freepik.com/free-photo/white-basic-t-shirt-boys-rsquo-teen-rsquo-s-apparel-studio-shoot_53876-102302.jpg"
+    },
+    {
+      "id": 6,
+      "url": "https://img.freepik.com/free-photo/young-man-white-t-shirt-black-pants-holding-hands-waist-looking-serious_176474-84143.jpg"
+    },
+    {
+      "id": 7,
+      "url": "https://img.freepik.com/free-photo/brunet-man-wearing-white-t-shirt_273609-22979.jpg"
+    }
+  ]
+}

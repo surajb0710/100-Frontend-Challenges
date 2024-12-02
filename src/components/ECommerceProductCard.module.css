@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.productCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1512px;
+  height: 982px;
+  background-color: aliceblue;
+  padding: 175px 162px;
+}
+
+.productCardContainer * {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+  height: 632px;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+  flex: 1 1 0px;
+  gap: 20px;
+}
+
+.imagesCarousal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* width: 494px; */
+  /* height: 632px; */
+  overflow-y: scroll;
+  gap: 20px;
+  overflow-y: hidden;
+}
+
+.carousalImageContainer {
+  width: 100px;
+  /* height: 104px; */
+  border-radius: 10px;
+  /* overflow-y: hidden; */
+}
+
+.carousalImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.mainImageContainer {
+  width: 494px;
+  height: 100%;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.productDetailsContainer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: start; */
+  /* align-items: center; */
+  flex: 1 1 0px;
+}
+
+.brandName {
+  color: #1a75ff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.productName {
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.productSummary {
+  color: #00000099;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.priceAndDiscountContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.priceAmount {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.discountValue {
+  color: #1a75ff;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #aaccff;
+}
+
+.originalPrice {
+  color: #00000052;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.chooseSizeLabel {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sizeOptionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.availableSize {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectedSize {
+  color: #fff;
+  background-color: #000;
+}
+
+.addToBagBtn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #1a75ff;
+  border-radius: 4px;
+  width: 100%;
+  height: 55px;
+  margin-top: 64px;
+}
