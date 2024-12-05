@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-.productCardContainer {
+/* .productCardContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,19 +8,23 @@
   height: 982px;
   background-color: aliceblue;
   padding: 175px 162px;
-}
+} */
 
 .productCardContainer * {
   font-family: 'Merriweather', serif;
   font-style: normal;
+  box-sizing: border-box;
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 58px;
   height: 632px;
+  width: 1187px;
+  background-color: #fff;
+  padding: 10px;
 }
 
 .imagesContainer {
@@ -31,6 +35,7 @@
   height: 100%;
   flex: 1 1 0px;
   gap: 20px;
+  overflow-y: hidden;
 }
 
 .imagesCarousal {
@@ -38,18 +43,20 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  /* width: 494px; */
-  /* height: 632px; */
-  overflow-y: scroll;
+  overflow-y: auto;
+  max-height: 100%;
   gap: 20px;
-  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.imagesCarousal::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 .carousalImageContainer {
-  width: 100px;
-  /* height: 104px; */
+  width: 250px;
+  height: 100px;
   border-radius: 10px;
-  /* overflow-y: hidden; */
 }
 
 .carousalImage {
@@ -60,55 +67,60 @@
 }
 
 .mainImageContainer {
-  width: 494px;
   height: 100%;
   flex-grow: 1;
   border-radius: 8px;
 }
 
 .mainImage {
-  width: 100%;
   height: 100%;
-  object-fit: contain;
+  width: 450px;
+  object-fit: cover;
   border-radius: 8px;
 }
 
 .productDetailsContainer {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: start; */
-  /* align-items: center; */
   flex: 1 1 0px;
+  padding: 10px;
 }
 
 .brandName {
   color: #1a75ff;
   font-size: 16px;
   font-weight: 700;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .productName {
   color: #000;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
+  margin: 0;
+  margin-top: 16px;
 }
 
 .productSummary {
   color: #00000099;
   font-size: 18px;
   font-weight: 400;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .priceAndDiscountContainer {
   display: flex;
   align-items: center;
   gap: 16px;
+  height: 100%;
+  margin-top: 30px;
 }
 
 .priceAmount {
   color: #000000;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
+  margin: 0;
 }
 
 .discountValue {
@@ -116,6 +128,7 @@
   font-size: 18px;
   font-weight: 700;
   background-color: #aaccff;
+  margin: 0;
 }
 
 .originalPrice {
@@ -123,18 +136,23 @@
   font-size: 18px;
   font-weight: 700;
   text-decoration: line-through;
+  margin: 0;
+  margin-top: 10px;
 }
 
 .chooseSizeLabel {
   color: #000000;
   font-size: 16px;
   font-weight: 700;
+  margin: 0;
+  margin-top: 35px;
 }
 
 .sizeOptionsContainer {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-top: 20px;
 }
 
 .availableSize {
@@ -146,6 +164,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  border: 1px solid black;
 }
 
 .selectedSize {
@@ -161,5 +181,6 @@
   border-radius: 4px;
   width: 100%;
   height: 55px;
-  margin-top: 64px;
+  margin-top: 50px;
+  border: none;
 }

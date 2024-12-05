@@ -7,7 +7,7 @@ const App = () => {
     <>
       <h1 className={style.repoTitle}>100 FREE Frontend Challenges</h1>
       <div className={style.mainContainer}>
-        {/* <ProfileCard /> */}
+        <ProfileCard />
         <ECommerceProductCard />
       </div>
     </>
